@@ -12,7 +12,7 @@ public class Interval {
         System.out.println("input y: ");
         int y = scanner.nextInt();
 
-        if (x > 0 && y < 14) {
+        if (a > 0 && a < 14) {
            System.out.println("подходящий промежуток [0-14]");
         }
         if (a > 15 && a < 35){
