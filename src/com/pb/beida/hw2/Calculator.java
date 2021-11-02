@@ -8,16 +8,16 @@ public class Calculator {
 
         switch (sign) {
             case 'A':
-                System.out.println("Сложение = " + (operand1 + operand2) + " Отлично!");
+                System.out.println("Сложение = " + (operand1 + operand2));
                 break;
             case 'B':
-                System.out.println("Вычетание = " + (operand1 - operand2) + " Отлично!");
+                System.out.println("Вычетание = " + (operand1 - operand2));
                 break;
             case 'C':
-                System.out.println("Умножение = " + (operand1 * operand2) + " Отлично!");
+                System.out.println("Умножение = " + (operand1 * operand2));
                 break;
             case 'D':
-                System.out.println("Деление = " + (operand2 / operand1) + " Отлично!");
+                System.out.println("Деление = " + (operand2 / operand1));
                 break;
         }
     }
