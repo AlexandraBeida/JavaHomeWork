@@ -2,6 +2,7 @@ package com.pb.beida.hw2;
 
 public class Interval {
     public static void main(String[] args) {
+
         int a = 50;
         if (a >= 0 && a <= 14) {
            System.out.print("Это подходящий промежуток [0-14]");
